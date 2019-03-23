@@ -10,12 +10,12 @@ buzznumber = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 for i in range(1, number):
     if i in range(0, number, fizznumber) and i in range(0, number, buzznumber):
-        print("fizzbuzz")
+        print("FizzBuzz")
     else:
         if i in range(0, number, fizznumber):
-            print("fizz")
+            print("Fizz")
         else:
             if i in range(0, number, buzznumber):
-                print("buzz")
+                print("Buzz")
             else:
                     print(i)
